@@ -35,6 +35,7 @@ gulp.task('sass', () => {
     .pipe(concat('styles.min.css'))
     .pipe(postcss(cssPlugins))
     .pipe(gulp.dest('./dist/css'))
+    .pipe(stream())
 })
 
 gulp.task('clean', () => {
@@ -90,6 +91,13 @@ gulp.task('babel', () => {
     .pipe(gulp.dest('./dist/js'))
 })
 
+gulp.task('static', () => {
+  return gulp
+    .src('./src/static/*')
+    .pipe(gulpPlumber())
+    .pipe(gulp.dest('./dist/static'))
+})
+
 gulp.task('imagemin', () => {
   return gulp
     .src('./src/images/*')
@@ -110,6 +118,7 @@ gulp.task('default', () => {
   // gulp.watch('./src/view/**/*.pug', gulp.series('views')).on('change', reload)
   gulp.watch('./src/*.html', gulp.series('htmlmin')).on('change', reload)
   gulp.watch('./src/images/*', gulp.series('imagemin'))
-  gulp.watch('./src/scss/styles.scss', gulp.series('sass'))
+  gulp.watch('./src/scss/**/*.scss', gulp.series('sass'))
   gulp.watch('./src/js/*.js', gulp.series('babel')).on('change', reload)
+  gulp.watch('./src/static/*', gulp.series('static')).on('change', reload)
 })

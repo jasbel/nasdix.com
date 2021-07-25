@@ -6,8 +6,9 @@
 @import './abstract/helpers';
 
 /* Core --------------------- */
-@import './vendor/bootstrap/bootstrap-grid.scss';
-@import './vendor/normalize.min.scss';
+@import './vendor/bootstrap/bootstrap-grid';
+// @import './vendor/aos';
+@import './vendor/normalize.min';
 
 /* Core --------------------- */
 @import './core/base';
