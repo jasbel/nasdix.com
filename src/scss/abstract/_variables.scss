@@ -1,0 +1,83 @@
+// ---------------------------------- \\
+// Layout Breakpoints
+// ---------------------------------- \\
+$max-width: 1440px;
+
+// ---------------------------------- \\
+// Font Families
+// ---------------------------------- \\
+$font-family-heading: 'Montserrat', sans-serif;
+$font-family: 'Open Sans', sans-serif;
+$font-weight: normal;
+$line-height: 30px;
+
+//Custom
+$font-family-link: $font-family;
+
+// ---------------------------------- \\
+// Font Sizes Default
+// ---------------------------------- \\
+$font-size-heading: 70px;
+$font-size-title: 50px;
+$font-size-subtitle: 42px;
+$font-size-subtitle-small: 28px;
+$font-size-subtitle-smaller: 22px;
+$font-size-subtitle-smallest: 16px;
+$font-size-large: 21px;
+$font-size-default: 19px;
+$font-size-small: 16px;
+
+$font-size-heading-mobile: 42px;
+$font-size-title-mobile: 32px;
+$font-size-subtitle-mobile: 26px;
+$font-size-mobile: 17px;
+$font-size-mobile-small: 15px;
+
+
+// ---------------------------------- \\
+// Boostrap 5 change value
+// ---------------------------------- \\
+// Grid Bootstrap ?
+// $grid-columns: 12;
+//disable important in b5 (!default)
+// $enable-important-utilities:  false;
+
+// ---------------------------------- \\
+// Variables for Media queries and B5
+// ---------------------------------- \\
+
+//For Mediaquery inline or @include
+$xxs: 360;
+$xs: 420;
+$sm: 576;
+$md: 768;
+$lg: 992;
+$xl: 1200;
+$xxl: 1440;
+
+// ------------------------------------------ \\
+// Responsive Variables for responsive mixins
+// ------------------------------------------ \\
+
+//For mixin Responsive
+$phone-responsive: $xxs;
+$tablet-responsive: $lg;
+$desktop-responsive: $xxl;
+
+//For Media Query block
+$dd: 0.02; //diference
+$phone-x-small: $xxs + px;
+$phone-small: ($xs - $dd) + px;
+$phone: ($sm - $dd) + px;
+$phone-large: ($md - $dd) + px;
+$tablet-small: 790px;
+$tablet: ($lg - $dd) + px;
+$desktop-small: 1090px;
+$desktop: ($xl - $dd) + px;
+$desktop-medium: ($xxl - $dd) + px;
+$desktop-large: 1650px;
+$desktop-x-large: 1950px;
+
+$phone-default: $phone-x-small; //default
+$tablet-default: $tablet;
+$desktop-default: $desktop-medium; //default

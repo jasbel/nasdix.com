@@ -1,0 +1,12 @@
+/* Modal */
+.modal {
+    &__boucher {
+        .modal-dialog {
+            max-width: 650px;
+            width: 100%;
+        }
+        .modal-footer {
+            display: flex;
+        }
+    }
+}

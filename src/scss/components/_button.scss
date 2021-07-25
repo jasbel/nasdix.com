@@ -1,0 +1,15 @@
+/* Btn
+------------------------ */
+.btn {
+    &--clean {
+        border: 0;
+        border: none;
+        background-color: transparent;
+        background: transparent;
+        padding: 0;
+    }
+    &__cart {}
+    &__pink {
+       @extend %button-red;
+    }
+ }

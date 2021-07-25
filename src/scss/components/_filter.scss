@@ -1,0 +1,53 @@
+/* Filter ------------------- */
+.filter {
+    $dark: #111;
+    $color-thirty: #337ab7;
+
+    &__checkbox{
+        height: 17px;
+        width: 17px;
+        position: relative;
+        top: 4px;
+        &:hover {
+            cursor: pointer;
+            & + label {
+                &::before{
+                    border-color: $color-thirty;
+                }
+            }
+        }
+
+    }
+    &__label {
+        transition: color ease-in-out .23s;
+        &:hover {
+            color: $dark;
+        }
+    }
+
+    &__table {
+        &.footable {
+            thead,
+            tbody,
+            tfoot {
+                tr {
+                    th.footable-sortable,
+                    td {
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+        tr th.footable-sortable:first-child,
+        tr td:first-child {
+                padding-right: 8px;
+                padding-left: 8px;
+        }
+    }
+    &__price {
+        font-size: 16px;
+        color: $dark;
+        font-weight: bold;
+    }
+}

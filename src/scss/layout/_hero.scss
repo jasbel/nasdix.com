@@ -1,0 +1,28 @@
+/*  Hero
+-----------------*/
+.hero {
+    background-image: url(../images/hero.png);
+    color: var(--color-white);
+    &__image-content {
+        display: flex;
+    }
+    &__image {
+        flex: auto;
+        width: 200px;
+    }
+    &__content {
+    }
+    &__title {
+        --max-size: 34;
+        --min-size: 30;
+        font-size: var(--responsive);
+        font-size: responsive();
+    }
+    &__subtitle {
+        --max-size: 21;
+        font-size: var(--responsive);
+        font-size: var(--responsive2);
+    }
+    &__description {
+    }
+}

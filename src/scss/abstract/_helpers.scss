@@ -1,0 +1,56 @@
+/// helpers -----------------//
+//general helper
+%title {
+    font-size: 42px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+%subtitle {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+}
+%button-red {
+    font-size: 20pxi;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 30px 57px;
+    background-color: $color-red;
+}
+
+/* Class ----------------- */
+.line {
+    width: 100%;
+    height: 9px;
+    background-color: var(--color-white);
+    margin: 0;
+}
+.menu {
+    text-align: end;
+    ul {
+        display: inline-flex;
+        margin-bottom: 0;
+        li {
+            text-decoration-style: none;
+            list-style-type: none;
+            a {
+                color: white;
+            }
+        }
+    }
+    &__icon {
+        &--blog {
+        }
+        &--feature {
+        }
+    }
+    &--active {
+    }
+}

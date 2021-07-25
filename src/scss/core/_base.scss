@@ -1,0 +1,42 @@
+
+:root {
+   --color-gray: #717171;
+   --color-pink: #da424b;
+   --color-black: #000;
+   --color-white: #fff;
+   --font-family: 'lato', san-serif;
+   --font-size: 28px;
+   --min-size: 18;
+   --min-size-px: calc(var(--min-size) * 1px);
+   --max-size: 50;
+   --max-size-px: 50px;
+   --max-width: 1440;
+   --max-width-px: calc(var(--max-size) * 1px);
+   --min-width: 600;
+   --min-width-px: calc(var(--min-width) * 1px);
+   --diff: (var(--max-size) - var(--min-size));
+   --diff-width: calc(var(--max-width) - var(--min-width));
+   --responsive: calc((var(--min-size) * 1px) + var(--diff) * ((100vw - (var(--min-width) * 1px)) / var(--diff-width)));
+   --responsive2: calc(((var(--max-size)*(100vw - var(--min-width-px))) - (var(--min-size)*(100vw - var(--max-width-px)))) / var(--diff-width));
+}
+
+body {
+   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   padding: 0;
+   margin: 0 auto;
+}
+img {
+   max-width: 100%;
+   height: auto;
+}
+a {
+   text-decoration: none;
+   &:hover {
+      text-decoration: none;
+   }
+}
