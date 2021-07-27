@@ -13,15 +13,10 @@
     &__content {
     }
     &__title {
-        --max-size: 34;
-        --min-size: 30;
-        font-size: var(--responsive);
-        font-size: responsive();
+        @include responsive(34, 40)
     }
     &__subtitle {
-        --max-size: 21;
-        font-size: var(--responsive);
-        font-size: var(--responsive2);
+        @include responsive(21)
     }
     &__description {
     }

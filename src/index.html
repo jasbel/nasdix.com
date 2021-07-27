@@ -2,323 +2,328 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nas-Dix</title>
-  <link rel="stylesheet" href="./css/styles.min.css">
-
-  <!-- <script src="./static/aos.js"></script>
-  <script>
-    AOS.init();
-  </script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nas-Dix</title>
+    <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__up">
-      <div class="container">
-        <nav class="header__menu-up menu">
-          <ul>
-            <li><a href="#"> Mi cuenta</a></li>
-            <li><a href="#"> Ultimos gustos</a></li>
-            <li><a href="#"> Checkout</a></li>
-            <li><a href="#"> Usuario</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="header__down">
-      <div class="container">
-        <div class="rows">
-          <a class="logo" href="">
-            <img src="./images/logo.png" alt="Logo">
-          </a>
-          <div class="form-search">
-            <label class="form-search__item">
+    <header class="header" data-aos="fade-in">
+        <div class="header__up">
+            <div class="container">
+                <nav class="header__menu-up menu">
+                    <ul>
+                        <li><a href="#"> Mi cuenta</a></li>
+                        <li><a href="#"> Ultimos gustos</a></li>
+                        <li><a href="#"> Checkout</a></li>
+                        <li><a href="#"> Usuario</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header__down">
+            <div class="container">
+                <div class="rows">
+                    <a class="logo" href="">
+                        <img src="./images/logo.png" alt="Logo">
+                    </a>
+                    <div class="form-search">
+                        <label class="form-search__item">
               <select class="form-search__category">
             </label>
-            <label class="form-search__item">
+                        <label class="form-search__item">
               <input class="form-search__input" type="text">
             </label>
-            <label for="" class="form-search__item ">
+                        <label for="" class="form-search__item ">
               <input class="btn form-search__btn" type="submit">
             </label>
-          </div>
-          <a class="btn btn__cart" href="#">Compras</a>
-          <nav class="header__menu--down menu">
-            <ul>
-              <li class="menu--active">Principal</li>
-              <li>Disenios</li>
-              <li class="menu__icon menu__icon--feature">Caracteristicas</li>
-              <li>Tienda</li>
-              <li class="menu__icon menu__icon--blog">Blog</li>
-              <li></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <hr class="line">
-  <section class="hero" >
-    <div class="container">
-      <div class="hero__image-content">
-        <div class="hero__image"><img src="./images/hero1.png" alt="item"></div>
-        <div class="hero__image"><img src="./images/hero2.png" alt="item"></div>
-        <div class="hero__image"><img src="./images/hero3.png" alt="item"></div>
-      </div>
-      <div class="hero__content">
-        <h2 class="hero__title">
-          NAS-DIX
-        </h2>
-        <h4 class="hero__subtitle">
-          Prendas de Vestir y Proteccion para la Salud
-        </h4>
-        <p class="hero__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci modi repellendus beatae omnis! Perferendis atque dolore tempore laborum consectetur, provident magni minus quidem illum vero maxime ratione commodi ipsa.
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="collection">
-    <div class="container">
-      <h3 class="collection__title">
-        Barbijos
-      </h3>
-      <h4 class="collection__subtitle">
-        Coleccion
-      </h4>
-      <div class="collection__content">
-        <div class="collection__item">
-          <h5 class="collection__item-title">
-            Coleccion para hombres
-          </h5>
-          <a href="#item" class="collection__item-view">VER TODOS</a>
-        </div>
-        <div class="collection__item collection__item--large">
-          <h5 class="collection__item-title">
-            Coleccion para NINIOS
-          </h5>
-          <a href="#item" class="collection__item-view">VER TODOS</a>
-        </div>
-        <div class="collection__item collection__item--large">
-          <h5 class="collection__item-title">
-            Coleccion para MUJERES
-          </h5>
-          <a href="#item" class="collection__item-view">VER TODOS</a>
-        </div>
-        <div class="collection__item">
-          <h5 class="collection__item-title">
-            Coleccion para LA VIDA
-          </h5>
-          <a href="#item" class="collection__item-view">VER TODOS</a>
-        </div>
-      </div>
-      <div class="collection__dots">
-        <span class="active"></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </section>
-  <section class="other" >
-    <div class="container container-medium">
-      <div class="other__content">
-        <a href="#" class="other__logo"><img src="./images/other1.png" alt="logos"></a>
-        <a href="#" class="other__logo"><img src="./images/other2.png" alt="logos"></a>
-        <a href="#" class="other__logo"><img src="./images/other3.png" alt="logos"></a>
-        <a href="#" class="other__logo"><img src="./images/other4.png" alt="logos"></a>
-        <a href="#" class="other__logo"><img src="./images/other5.png" alt="logos"></a>
-      </div>
-      <a href="#" class="btn btn__pink other__view">Ver Todos</a>
-    </div>
-  </section>
-  <!-- End Others -->
-  <!-- Product -->
-  <section class="product" >
-    <div class="container">
-      <h3 class="product__title">
-        Populares
-      </h3>
-      <h4 class="product__subtitle">
-        Productos
-      </h4>
-      <div class="product__content">
-        <div class="product__item-content item__content">
-          <div class="product__item item">
-            <span class="item__zoom">Vista Rapida</span>
-            <div class="item__label-content">
-              <div class="item__label item__label--yellow">
-                20%
-              </div>
-              <div class="item__label item__label--orange">
-                paquete
-              </div>
-              <div class="item__label item__label--pink">
-                Rebaja
-              </div>
+                    </div>
+                    <a class="btn btn__cart" href="#">Compras</a>
+                    <nav class="header__menu--down menu">
+                        <ul>
+                            <li class="menu--active">Principal</li>
+                            <li>Disenios</li>
+                            <li class="menu__icon menu__icon--feature">Caracteristicas</li>
+                            <li>Tienda</li>
+                            <li class="menu__icon menu__icon--blog">Blog</li>
+                            <li></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="item__image"><img src="./images/item1.png" alt="Product"></div>
-          </div>
-          <h3 class="item__title">Barbijo Bonito 1</h3>
-          <div class="item__star-content">
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star"></div>
-          </div>
-          <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
         </div>
-        <div class="product__item-content item__content">
-          <div class="product__item item">
-            <a class="item__zoom" href=#><span>Vista Rapida</span></a>
-            <div class="item__label-content">
-              <div class="item__label item__label--yellow">
-                20%
-              </div>
-              <div class="item__label item__label--orange">
-                paquete
-              </div>
-              <div class="item__label item__label--pink">
-                Rebaja
-              </div>
-            </div>
-            <div class="item__image"><img src="./images/item2.png" alt="Product"></div>
-          </div>
-          <h3 class="item__title">Barbijo Bonito 1</h3>
-          <div class="item__star-content">
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star"></div>
-          </div>
-          <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
-        </div>
-        <div class="product__item-content item__content">
-          <div class="product__item item">
-            <span class="item__zoom">Vista Rapida</span>
-            <div class="item__label-content">
-              <div class="item__label item__label--yellow">
-                20%
-              </div>
-              <div class="item__label item__label--orange">
-                paquete
-              </div>
-              <div class="item__label item__label--pink">
-                Rebaja
-              </div>
-            </div>
-            <div class="item__image"><img src="./images/item3.png" alt="Product"></div>
-          </div>
-          <h3 class="item__title">Barbijo Bonito 1</h3>
-          <div class="item__star-content">
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star item__star--active"></div>
-            <div class="item__star"></div>
-          </div>
-          <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
-        </div>
-      </div>
-      <a href="" class="btn btn__pink product__btn"></a>
+    </header>
 
-    </div>
-  </section>
-  <!-- End Product -->
-  <!-- Graphic -->
-  <section class="graphic" >
-    <div class="container">
-      <div class="graphic__container">
-        <div class="graphic__product">
-          <img src="./images/graphic-product.png" alt="my image">
+    <hr class="line" data-aos="fade-in">
+
+    <section class="hero" data-aos="fade-in">
+        <div class="container">
+            <div class="hero__image-content">
+                <div class="hero__image"><img src="./images/hero1.png" alt="item"></div>
+                <div class="hero__image"><img src="./images/hero2.png" alt="item"></div>
+                <div class="hero__image"><img src="./images/hero3.png" alt="item"></div>
+            </div>
+            <div class="hero__content">
+                <h2 class="hero__title">
+                    NAS-DIX
+                </h2>
+                <h4 class="hero__subtitle">
+                    Prendas de Vestir y Proteccion para la Salud
+                </h4>
+                <p class="hero__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci modi repellendus beatae omnis! Perferendis atque dolore tempore laborum consectetur, provident magni minus quidem illum vero maxime ratione commodi ipsa.
+                </p>
+            </div>
         </div>
-        <div class="graphic__content">
-          <h5 class="graphic__price"> 90 <sup>Bs</sup> </h5>
-          <span class="graphic__status">MIXED</span>
-          <div class="graphic__level graphic__level--blue"></div>
-          <div class="graphic__level graphic__level--pink"></div>
-          <div class="graphic__level graphic__level--gray"></div>
+    </section>
+
+    <section class="collection" data-aos="fade-in">
+        <div class="container">
+            <h3 class="collection__title">
+                Barbijos
+            </h3>
+            <h4 class="collection__subtitle">
+                Coleccion
+            </h4>
+            <div class="collection__content">
+                <div class="collection__item">
+                    <h5 class="collection__item-title">
+                        Coleccion para hombres
+                    </h5>
+                    <a href="#item" class="collection__item-view">VER TODOS</a>
+                </div>
+                <div class="collection__item collection__item--large">
+                    <h5 class="collection__item-title">
+                        Coleccion para NINIOS
+                    </h5>
+                    <a href="#item" class="collection__item-view">VER TODOS</a>
+                </div>
+                <div class="collection__item collection__item--large">
+                    <h5 class="collection__item-title">
+                        Coleccion para MUJERES
+                    </h5>
+                    <a href="#item" class="collection__item-view">VER TODOS</a>
+                </div>
+                <div class="collection__item">
+                    <h5 class="collection__item-title">
+                        Coleccion para LA VIDA
+                    </h5>
+                    <a href="#item" class="collection__item-view">VER TODOS</a>
+                </div>
+            </div>
+            <div class="collection__dots">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <div class="graphic__person">
-          <span>8hr <i></i></span>
+    </section>
+    <section class="other" data-aos="fade-in">
+        <div class="container container-medium">
+            <div class="other__content">
+                <a href="#" class="other__logo"><img src="./images/other1.png" alt="logos"></a>
+                <a href="#" class="other__logo"><img src="./images/other2.png" alt="logos"></a>
+                <a href="#" class="other__logo"><img src="./images/other3.png" alt="logos"></a>
+                <a href="#" class="other__logo"><img src="./images/other4.png" alt="logos"></a>
+                <a href="#" class="other__logo"><img src="./images/other5.png" alt="logos"></a>
+            </div>
+            <a href="#" class="btn btn__pink other__view">Ver Todos</a>
         </div>
-        <a href="#" class="graphic__link">Nas Dix Graphic <i></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- End Graphic -->
-  <section class="newsletter">
-    <div class="container">
-      <dic class="row">
-        <div class="column-60">
-          <h3 class="newsletter__title"> Boletin Informatico </h3>
-          <p class="newsletter__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quas quis, reprehenderit nostrum temporibus </p>
+    </section>
+    <!-- End Others -->
+    <!-- Product -->
+    <section class="product" data-aos="fade-in">
+        <div class="container">
+            <h3 class="product__title">
+                Populares
+            </h3>
+            <h4 class="product__subtitle">
+                Productos
+            </h4>
+            <div class="product__content">
+                <div class="product__item-content item__content">
+                    <div class="product__item item">
+                        <span class="item__zoom">Vista Rapida</span>
+                        <div class="item__label-content">
+                            <div class="item__label item__label--yellow">
+                                20%
+                            </div>
+                            <div class="item__label item__label--orange">
+                                paquete
+                            </div>
+                            <div class="item__label item__label--pink">
+                                Rebaja
+                            </div>
+                        </div>
+                        <div class="item__image"><img src="./images/item1.png" alt="Product"></div>
+                    </div>
+                    <h3 class="item__title">Barbijo Bonito 1</h3>
+                    <div class="item__star-content">
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star"></div>
+                    </div>
+                    <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
+                </div>
+                <div class="product__item-content item__content">
+                    <div class="product__item item">
+                        <a class="item__zoom" href=#><span>Vista Rapida</span></a>
+                        <div class="item__label-content">
+                            <div class="item__label item__label--yellow">
+                                20%
+                            </div>
+                            <div class="item__label item__label--orange">
+                                paquete
+                            </div>
+                            <div class="item__label item__label--pink">
+                                Rebaja
+                            </div>
+                        </div>
+                        <div class="item__image"><img src="./images/item2.png" alt="Product"></div>
+                    </div>
+                    <h3 class="item__title">Barbijo Bonito 1</h3>
+                    <div class="item__star-content">
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star"></div>
+                    </div>
+                    <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
+                </div>
+                <div class="product__item-content item__content">
+                    <div class="product__item item">
+                        <span class="item__zoom">Vista Rapida</span>
+                        <div class="item__label-content">
+                            <div class="item__label item__label--yellow">
+                                20%
+                            </div>
+                            <div class="item__label item__label--orange">
+                                paquete
+                            </div>
+                            <div class="item__label item__label--pink">
+                                Rebaja
+                            </div>
+                        </div>
+                        <div class="item__image"><img src="./images/item3.png" alt="Product"></div>
+                    </div>
+                    <h3 class="item__title">Barbijo Bonito 1</h3>
+                    <div class="item__star-content">
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star item__star--active"></div>
+                        <div class="item__star"></div>
+                    </div>
+                    <span class="item__price">6.00 Bs. <span class="item__price--across across">10.00 Bs.</span> </span>
+                </div>
+            </div>
+            <a href="" class="btn btn__pink product__btn"></a>
+
         </div>
-        <div class="column-40">
-          <form action="" class="newsletter__form">
-            <label for="" class="newsletter__input">
+    </section>
+    <!-- End Product -->
+    <!-- Graphic -->
+    <section class="graphic" data-aos="fade-in">
+        <div class="container">
+            <div class="graphic__container">
+                <div class="graphic__product">
+                    <img src="./images/graphic-product.png" alt="my image">
+                </div>
+                <div class="graphic__content">
+                    <h5 class="graphic__price"> 90 <sup>Bs</sup> </h5>
+                    <span class="graphic__status">MIXED</span>
+                    <div class="graphic__level graphic__level--blue"></div>
+                    <div class="graphic__level graphic__level--pink"></div>
+                    <div class="graphic__level graphic__level--gray"></div>
+                </div>
+                <div class="graphic__person">
+                    <span>8hr <i></i></span>
+                </div>
+                <a href="#" class="graphic__link">Nas Dix Graphic <i></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Graphic -->
+    <section class="newsletter" data-aos="fade-in">
+        <div class="container">
+            <dic class="row">
+                <div class="column-60">
+                    <h3 class="newsletter__title"> Boletin Informatico </h3>
+                    <p class="newsletter__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quas quis, reprehenderit nostrum temporibus </p>
+                </div>
+                <div class="column-40">
+                    <form action="" class="newsletter__form">
+                        <label for="" class="newsletter__input">
               <input type="text" placeholder="Tu Correo Electronico">
             </label>
-            <button class="btn newsletter__suscribe">Suscribirme</button>
-          </form>
+                        <button class="btn newsletter__suscribe">Suscribirme</button>
+                    </form>
+                </div>
         </div>
-    </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__item-content">
-        <div class="footer__item">
-          <h3 class="footer__title">Informacion</h3>
-          <ul class="footer__links">
-            <li><a href="#">Envios</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Reabaja de Precios</a></li>
-            <li><a href="#">Contactanos</a></li>
-            <li><a href="#">Tienda</a></li>
-          </ul>
         </div>
-        <div class="footer__item">
-          <h3 class="footer__title">Tu cuenta</h3>
-          <ul class="footer__links">
-            <li><a href="#">Informacion Personal</a></li>
-            <li><a href="#">Compras</a></li>
-            <li><a href="#">Creditos</a></li>
-            <li><a href="#">Direccion</a></li>
-          </ul>
+    </section>
+    <footer class="footer" data-aos="fade-in">
+        <div class="container">
+            <div class="footer__item-content">
+                <div class="footer__item">
+                    <h3 class="footer__title">Informacion</h3>
+                    <ul class="footer__links">
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Reabaja de Precios</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                        <li><a href="#">Tienda</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Tu cuenta</h3>
+                    <ul class="footer__links">
+                        <li><a href="#">Informacion Personal</a></li>
+                        <li><a href="#">Compras</a></li>
+                        <li><a href="#">Creditos</a></li>
+                        <li><a href="#">Direccion</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Categorias</h3>
+                    <ul class="footer__links">
+                        <li><a href="#">Para Hombres</a></li>
+                        <li><a href="#">Para Mujeres</a></li>
+                        <li><a href="#">Para Ninios</a></li>
+                        <li><a href="#">Rebajas</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__title">Tienda Informacion</h3>
+                    <ul class="footer__links">
+                        <li><a class="footer__icon--direction" href="#">C. Pocoata Av. Humberto Asin, Nro: None</a></li>
+                        <li><a class="footer__icon--phone" href="#">44756811</a></li>
+                        <li><a class="footer__icon--email" href="#">asbel.elmec@gmail.com</a></li>
+                    </ul>
+                    <div class="footer__social">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <img src="./images/logo2.png" alt="logo NAS-DIX">
+            </div>
+            <p class="footer__end"> <sub>c</sub> 2020 - Comercio Electronico hecho por Asbel Apaza </p>
         </div>
-        <div class="footer__item">
-          <h3 class="footer__title">Categorias</h3>
-          <ul class="footer__links">
-            <li><a href="#">Para Hombres</a></li>
-            <li><a href="#">Para Mujeres</a></li>
-            <li><a href="#">Para Ninios</a></li>
-            <li><a href="#">Rebajas</a></li>
-          </ul>
-        </div>
-        <div class="footer__item">
-          <h3 class="footer__title">Tienda Informacion</h3>
-          <ul class="footer__links">
-            <li><a class="footer__icon--direction" href="#">C. Pocoata Av. Humberto Asin, Nro: None</a></li>
-            <li><a class="footer__icon--phone" href="#">44756811</a></li>
-            <li><a class="footer__icon--email" href="#">asbel.elmec@gmail.com</a></li>
-          </ul>
-          <div class="footer__social">
-            <i></i>
-            <i></i>
-            <i></i>
-          </div>
-        </div>
-      </div>
-      <div class="footer__logo">
-        <img src="./images/logo2.png" alt="logo NAS-DIX">
-      </div>
-      <p class="footer__end"> <sub>c</sub> 2020 - Comercio Electronico hecho por Asbel Apaza </p>
-    </div>
-  </footer>
+    </footer>
+
+
+    <script src="./static/aos.js"></script>
+    <script src="./js/script.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
