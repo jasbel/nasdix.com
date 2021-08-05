@@ -8,9 +8,13 @@
 
 /* Core --------------------- */
 
-@import './vendor/bootstrap/bootstrap-grid.scss';
-@import './vendor/aos.scss';
 @import './vendor/normalize.min.scss';
+@import './vendor/bootstrap/bootstrap-grid.scss';
+@import './vendor/fontawesome5/solid.scss';
+@import './vendor/fontawesome5/regular.scss';
+@import './vendor/fontawesome5/brands.scss';
+@import './vendor/fontawesome5/fontawesome.scss';
+@import './vendor/aos.scss';
 
 /* Core --------------------- */
 
@@ -28,9 +32,9 @@
 
 /* Layout --------------------- */
 
+@import './layout/header';
 @import './layout/grid';
 @import './layout/hero';
-@import './layout/header';
 @import './layout/footer';
 
 /* Views --------------------- */

@@ -120,6 +120,13 @@ gulp.task("static", () => {
         .pipe(gulp.dest("./dist/static"));
 });
 
+gulp.task("fonts", () => {
+    return gulp
+        .src("./src/fonts/**/*")
+        .pipe(gulpPlumber())
+        .pipe(gulp.dest("./dist/fonts"));
+});
+
 gulp.task("imagemin", () => {
     return gulp
         .src("./src/images/*")
@@ -136,7 +143,7 @@ gulp.task("imagemin", () => {
 
 gulp.task(
     "start",
-    gulp.parallel("static", "sass", "imagemin", "babelVendor", "htmlmin")
+    gulp.parallel("static", "sass", "imagemin", "babelVendor", "htmlmin", "fonts")
 );
 gulp.task("watch", () => {
     server({
