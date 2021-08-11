@@ -3,8 +3,14 @@
 .hero {
     background-image: url(../images/hero.png);
     color: var(--color-white);
+    min-height: 818px;
+    display: flex;
+    align-items: flex-end;
+    padding: 60px 0;
+
     &__image-content {
         display: flex;
+        margin-bottom: 100px;
     }
     &__image {
         flex: auto;
@@ -13,11 +19,18 @@
     &__content {
     }
     &__title {
-        @include responsive(34, 40)
+        @include responsive(fz, 48, 40);
+        margin-bottom: 26px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
     &__subtitle {
-        @include responsive(21)
+        @include responsive(fz,30);
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
     &__description {
+        font-size: 18px;
     }
 }

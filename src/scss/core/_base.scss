@@ -35,8 +35,23 @@ img {
    height: auto;
 }
 a {
+   font-family: $font-family-heading;
+   font-weight: bold;
    text-decoration: none;
    &:hover {
       text-decoration: none;
    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: $font-family-heading;
+   font-weight: bold;
+}
+
+h1, h2 {
+   font-weight: bolder;
+}
+
+p {
+   font-family: $font-family;
 }
